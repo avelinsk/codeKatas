@@ -14,10 +14,35 @@ public class GameOfLife {
 
     for (int i=0; i<cells.length; i++){
       for (int j=0; j<cells[0].length; j++){
-        if((cells[i][j] == 1) && cells)
+
+        int count = 0;
+        for (int x=i-1; x<=i+1; x++){
+          for (int y=j-1; y<=j+1; y++){
+            if(x>=0
+                && x<cells.length
+                && y>=0
+                && y<cells[0].length
+                && cells[x][y]==1
+                && x!=i
+                && y!=j){
+              count++;
+            }
+          }
+        }
+
+        if( count < 2 && cells[i][j]==1){
+          tmp[i][j]=0;
+        }
+
       }
     }
 
-    return cells;
+    return tmp;
+  }
+
+  public void print(int[][] matrix){
+    System.out.println("{");
+    System.out.print("#");
+    System.out.print(".");
   }
 }
