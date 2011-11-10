@@ -36,6 +36,23 @@ public class GameOfLifeTest {
     assertEquals(true, compare(newGenerationCells, gol.play(oldGenerationCells)));
   }
 
+  @Test
+  public void testThreeLiveNeighbours(){
+    oldGenerationCells = new int[][]{
+            {0, 1, 0},
+            {0, 1, 1},
+            {0, 1, 1}
+    };
+
+    newGenerationCells = new int[][]{
+            {0, 1, 0},
+            {1, 1, 0},
+            {0, 1, 1}
+    };
+
+    assertEquals(true, compare(newGenerationCells, gol.play(oldGenerationCells)));
+  }
+
   @After
   public void tearDown(){
     gol = null;
