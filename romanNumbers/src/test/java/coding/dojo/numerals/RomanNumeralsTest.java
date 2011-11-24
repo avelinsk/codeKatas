@@ -44,7 +44,11 @@ public class RomanNumeralsTest {
             {99, "XCIX"},
             {6, "VI"},
             {8, "VIII"},
-            {11, "XI"}
+            {11, "XI"},
+            {3,"III"},
+            {999,"CMXCIX"},
+            {1032,"MXXXII"},
+            {1569,"MDLXIX"}
     };
     return Arrays.asList(numerals);
   }
