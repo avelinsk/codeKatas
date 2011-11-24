@@ -9,17 +9,17 @@ public class Pair {
   private String roman;
 
 
-  public Pair(int arab, String roman) {
+  Pair(int arab, String roman) {
     super();
     this.arab = arab;
     this.roman = roman;
   }
 
-  public int getArab(){
+  int getArab(){
     return this.arab;
   }
 
-  protected String getRoman() {
+  String getRoman() {
     return this.roman;
   }
 

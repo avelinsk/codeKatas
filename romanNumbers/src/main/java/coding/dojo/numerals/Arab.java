@@ -13,7 +13,7 @@ public class Arab extends Numeral {
   String toRoman() {
     String roman = "";
     for (Pair number : NUMBERS) {
-      while (arab > number.getArab()) {
+      while (arab >= number.getArab()) {
         roman = roman.concat(number.getRoman());
         arab -= number.getArab();
       }
