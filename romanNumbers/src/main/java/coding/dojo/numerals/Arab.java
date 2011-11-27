@@ -3,7 +3,7 @@ package coding.dojo.numerals;
 /**
  * @author avelinsk
  */
-public class Arab extends Numeral {
+public class Arab {
   private int arab;
 
   Arab(int arab) {
@@ -12,7 +12,7 @@ public class Arab extends Numeral {
 
   String toRoman() {
     String roman = "";
-    for (Pair number : NUMBERS) {
+    for (Pair number : Numeral.NUMBERS) {
       while (arab >= number.getArab()) {
         roman = roman.concat(number.getRoman());
         arab -= number.getArab();
