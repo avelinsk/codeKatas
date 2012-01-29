@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/anagram/anagram.iml" filepath="$PROJECT_DIR$/anagram/anagram.iml" />
       <module fileurl="file://$PROJECT_DIR$/codeKatas.iml" filepath="$PROJECT_DIR$/codeKatas.iml" />
       <module fileurl="file://$PROJECT_DIR$/gameOfLife/gameOfLife.iml" filepath="$PROJECT_DIR$/gameOfLife/gameOfLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/romanNumbers/romanNumbers.iml" filepath="$PROJECT_DIR$/romanNumbers/romanNumbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/stringCalc/stringCalc.iml" filepath="$PROJECT_DIR$/stringCalc/stringCalc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wordWrap/wordWrap.iml" filepath="$PROJECT_DIR$/wordWrap/wordWrap.iml" />
     </modules>
   </component>
 </project>

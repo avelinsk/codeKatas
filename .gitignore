@@ -1,6 +1,6 @@
 # exclude patterns (uncomment them if you want to use them):
 # *.[oa]
-# *~
+*~
 # idea:
 *.iml
 *.ipr
@@ -9,16 +9,14 @@
 # maven:
 target/
 overlays/
-# java
-.class
 # eclipse:
 .classpath
 .project
 .settings/
-# Logs:
+analyticslogsolr/
+# Logging:
 *.log
 *.out
-# git:
-*.orig
-.DS_Store
-.gitignore
+
+# ANTLR
+output/

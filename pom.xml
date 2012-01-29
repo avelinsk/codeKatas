@@ -9,18 +9,24 @@
   <packaging>pom</packaging>
   <version>1.0</version>
 
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <junit.version>4.9</junit.version>
+  </properties>
+
   <modules>
     <module>stringCalc</module>
     <module>anagram</module>
     <module>gameOfLife</module>
     <module>romanNumbers</module>
+    <module>wordWrap</module>
   </modules>
 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.9</version>
+      <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
